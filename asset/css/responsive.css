@@ -1,0 +1,78 @@
+
+
+@media (max-width:1023px){
+    .btn{
+        padding: 15px 16px;
+    }
+    .contact-form .font-control
+    {
+        padding: 15px;
+        font-size: 16px;
+    }
+    .social-list{
+        font-size: 48px;
+    }
+    .social-list a{
+        margin: 0 8px;
+    }
+    #footer .coppyright a{
+        padding: 14px 0;
+        display: inline-block;
+    }
+    #nav .subnav a{
+        padding: 5px 12px;
+    }
+    .contact-infor{
+        line-height: 2;
+    }
+    .contact-submit-btn {
+        font-size: 16px;
+    }
+}
+
+@media (max-width:739px) {
+    #header{
+        overflow: hidden; /*khi cac phan tu con vuot ra khoi phan tu cha thi bi an di*/
+    }
+    #header .search-btn {
+        display: none;
+    }
+   #header .mobile-menu-btn{
+       display: block;
+   }
+    #nav {
+        display: block;
+    }
+    #nav .subnav{
+        position: initial;
+        background-color: black
+    }
+    #nav li:hover .subnav {
+        display:grid;
+    }
+    #nav .subnav a{
+        color: #fff;
+        padding: 5px 41px;
+        width: 100%;
+    }
+    #nav > li {
+        display: block;
+    }
+   #nav > li:first-child{
+       display: inline-block;
+   }
+   .s-full-width,
+   .s-col-full{
+       width: 100% !important;
+   }
+   #content .avatar{
+       width: 60%;
+   }
+   .contact-infor{
+       margin-bottom: 16px;
+   }
+   .s-mt-8px{
+       margin-top: 8px !important;
+   }
+   
+}

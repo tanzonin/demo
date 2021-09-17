@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The band</title>
+    <link rel="icon" href="./asset/img/icon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./asset/css/styles.css">
+    <link rel="stylesheet" href="./asset/css/responsive.css">
+    <link rel="stylesheet" href="./asset/font/fontawesome-free-5.15.4-web/fontawesome-free-5.15.4-web/css/all.css">
+</head>
+
+<body>
+    <div id="main">
+        <!--Begin-header-->
+        <div id="header">
+            <!--Begin Nav-->
+            <ul id="nav">
+                <li><a href="#">home</a></li>
+                <li><a href="#band">band</a></li>
+                <li><a href="#tour">tour</a></li>
+                <li><a href="#contact">contact</a></li>
+                <li><a href="#">more
+                        <i class="fas fa-caret-down"></i>
+                    </a>
+                    <ul class="subnav">
+                        <li><a href="#">merchandise</a></li>
+                        <li><a href="#">xtras</a></li>
+                        <li><a href="#">media</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <!--End Nav-->
+
+            <!--Begin Search-->
+            <div class="search-btn">
+                <i class="search-icon fas fa-search"></i>
+            </div>
+            <div id="mobile-menu" class="mobile-menu-btn">
+                <i class="menu-icon-mobile fas fa-bars"></i>
+            </div>
+            <!--End Search-->
+        </div>
+        <!--End-header-->
+
+        <!--Begin-Slide-->
+        <div id="slide">
+            <div class="text-content">
+                <div class="text-heading">
+                    <h3>New York</h3>
+                </div>
+                <div class="text-description"><b>The atmosphere in New York is lorem ipsum.</b></div>
+            </div>
+        </div>
+        <!--End-Slide-->
+        <!--Begin-Content-->
+        <div id="content">
+
+            <!--BEGIN-About-Section-->
+            <div id="band" class="content-section">
+                <h2 class="section-heading">the band</h2>
+                <p class="section-sub-heading">We love music</p>
+                <p class="about-text">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+                    est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                    commodo consequat.</p>
+                <div class="row member-list">
+                    <div class="col-3 col text-center member s-col-full mt-32px">
+                        <p class="name-member">name</p>
+                        <img class="avatar" src="./asset/img/slide/member.jpg" alt="name">
+                    </div>
+                    <div class="col-3 col text-center member s-col-full mt-32px">
+                        <p class="name-member">name</p>
+                        <img class="avatar" src="./asset/img/slide/member.jpg" alt="name">
+                    </div>
+                    <div class="col-3 col text-center member s-col-full mt-32px">
+                        <p class="name-member">name</p>
+                        <img class="avatar" src="./asset/img/slide/member.jpg" alt="name">
+                    </div>
+                    <!--giúp thuộc tính float ở class member ôm hết các class con thành một khối tổng thể-->
+
+                </div>
+            </div>
+            <!--END-About-Section-->
+
+            <!--BEGIN-TOUR DATES-->
+            <div id="tour" class="tour-section">
+                <div class="content-section">
+                    <h2 class="section-heading text-white">TOUR DATES</h2>
+                    <p class="section-sub-heading text-white">Remember to book your tickets!</p>
+                    <!--Begin-Ticket-->
+                    <ul class="ticket-list">
+                        <li>September <span class="sold-out">Sold out</span></li>
+                        <li>October <span class="sold-out">Sold out</span></li>
+                        <li>November <span class="quantity">3</span></li>
+                    </ul>
+                    <!--End-Ticket-->
+
+                    <!--Begin-Place-->
+                    <div class="row place-list">
+                        <div class="col col-3 place-item s-col-full mt-16px ">
+                            <img src="./asset/img/sticket/place1.jpg" alt="New York" class="place-img">
+                            <div class="place-content">
+                                <h3 class="place-heading">New York</h3>
+                                <p class="place-time">Fri 27 Nov 2016</p>
+                                <p class="place-description">Praesent tincidunt sed tellus ut rutrum sed vitae justo.
+                                </p>
+                                <button class="btn js-buy-tickets s-full-width">Buy Tickets</button>
+                            </div>
+                        </div>
+                        <div class="col col-3 place-item s-col-full mt-16px">
+                            <img src="./asset/img/sticket/place2.jpg" alt="Paris" class="place-img">
+                            <div class="place-content">
+                                <h3 class="place-heading">Paris</h3>
+                                <p class="place-time">Fri 27 Nov 2016</p>
+                                <p class="place-description">Praesent tincidunt sed tellus ut rutrum sed vitae justo.
+                                </p>
+                                <button class="btn js-buy-tickets s-full-width">Buy Tickets</button>
+                            </div>
+                        </div>
+                        <div class="col col-3 place-item s-col-full mt-16px">
+                            <img src="./asset/img/sticket/place3.jpg" alt="San Francisco" class="place-img">
+                            <div class="place-content">
+                                <h3 class="place-heading">San Francisco</h3>
+                                <p class="place-time">Fri 27 Nov 2016</p>
+                                <p class="place-description">Praesent tincidunt sed tellus ut rutrum sed vitae justo.
+                                </p>
+                                <button class="btn js-buy-tickets s-full-width">Buy Tickets</button>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!--End-Place-->
+
+                </div>
+            </div>
+            <!--END-TOUR DATES-->
+
+            <!--BEGIN-CONTACT-->
+            <div id="contact" class="content-section">
+                <h2 class="section-heading">CONTACT</h2>
+                <p class="section-sub-heading">Fan? Drop a note!</p>
+                <div class="row contact-content">
+                    <div class="col col-2 s-col-full contact-infor">
+                        <p><i class="fas fa-map-marker-alt"></i> Chicago, US</p>
+                        <p><i class="fas fa-phone-alt"></i> Phone: <a href="tel:00 151515">+00 151515</a></p>
+                        <p><i class="fas fa-envelope"></i> Email:<a href="mailto:webmaster@example.com"> mail@mail.com</a></p>
+
+                    </div>
+                    <div class="col col-2  s-col-full contact-form">
+                        <form action="">
+                            <div class="row">
+                                <div class="col col-2  s-col-full">
+                                    <input type="text" class="font-control" placeholder="Name" required>
+                                </div>
+                                <div class="col col-2  s-col-full s-mt-8px">
+                                    <input type="email" class="font-control" placeholder="Email" required>
+                                </div>
+                            </div>
+                            <div class="row mt-8px">
+                                <div class="col col-2  col-full">
+                                    <input type="text" class="font-control" placeholder="Message" required>
+                                </div>
+                            </div>
+                            <input class="contact-submit-btn  mt-16px btn pull-right s-full-width" type="submit" value="SEND">
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!--End-Contact-->
+        </div>
+        <div class="map-section">
+            <img src="./asset/img/sticket/map.jpg" alt="">
+        </div>
+        <!--End-Content-->
+
+        <!--Begin-footer-->
+        <div id="footer">
+            <div class="social-list">
+                <a href=""><i class="mauxam fab fa-facebook-square"></i></a>
+                <a href=""><i class="mauxam fab fa-instagram"></i></a>
+                <a href=""><i class="mauxam fab fa-snapchat"></i></a>
+                <a href=""><i class="mauxam fab fa-pinterest-p"></i></a>
+                <a href=""><i class="mauxam fab fa-twitter"></i></a>
+                <a href=""><i class="mauxam fab fa-linkedin-in"></i></a>
+            </div>
+            <p class="mauxam coppyright">Powered by <a href="" class="mauxam">w3.css</a></p>
+        </div>
+        <!--End-footer-->
+
+        <!--Begin-Modal-->
+        <div class="modal js-modal">
+            <div class="modal-container js-modal-container">
+                <div class="modal-close js-modal-close">
+                    <i class="fas fa-times"></i>
+                </div>
+                <header class="modal-header">
+                    <i class="modal-heading-icon fas fa-suitcase"></i>
+                    Tickets
+                </header>
+
+                <div class="modal-body">
+                    <label for="tickets-quantity" class="modal-label">
+                        <i class=" fas fa-shopping-cart"></i>
+                        Tickets, $15 per person
+                    </label>
+                    <input id="tickets-quantity" type="text" class="modal-input" placeholder="How many?">
+
+                    <label for="tickets-mail" class="modal-label">
+                        <i class="fas fa-user"></i>
+                        Send To
+                    </label>
+                    <input id="tickets-mail" type="text" class="modal-input" placeholder="Enter email">
+
+                    <button id="buy-tickets">
+                        Pay
+                        <i class="fas fa-check"></i>
+                    </button>
+                </div>
+
+                <footer class="modal-footer">
+                    <p class="modal-help">Need <a href="">help?</a></p>
+                </footer>
+            </div>
+        </div>
+        <!--End-Modal-->
+
+    </div>
+    <!--giao dien dat ve-->
+    <script>
+        /*mở giao diện mua vé*/
+        const buyBtns = document.querySelectorAll('.js-buy-tickets')
+        const modal = document.querySelector('.js-modal')
+        /*ham hien thi*/
+        function showBuyTickets() {
+            modal.classList.add('open')
+        }
+        /*lap qua tung the button va lang nghe click*/
+        for (const buyBtn of buyBtns) {
+            buyBtn.addEventListener('click', showBuyTickets)
+        }
+
+        /*nhấn nút X để tắt giao diện*/
+        const close_Btn = document.querySelector('.js-modal-close')
+        /*ham an*/
+        function close_BuyTickets() {
+            modal.classList.remove('open')
+        }
+        /*nghe hanh vi click*/
+        close_Btn.addEventListener('click', close_BuyTickets)
+        /*click vao vung ngoai de dong*/
+        const modal_container = document.querySelector('.js-modal-container')
+        modal.addEventListener('click', close_BuyTickets)
+        modal_container.addEventListener('click', function (event) {
+            event.stopPropagation()
+        })
+    </script>
+    <!--giao dien header mobile-->
+    <script>
+        var header = document.getElementById('header');
+        var menu_moblie = document.getElementById('mobile-menu');
+        var headerHight = header.clientHeight;
+
+        menu_moblie.onclick = function () {
+            var isClose = header.clientHeight == headerHight;
+            if (isClose) {
+                header.style.height = 'auto';
+            }
+            else {
+                header.style.height = null;
+            }
+        }
+
+        var menuItems = document.querySelectorAll('#nav li a[href*="#"]');
+
+        for (var i = 0; i < menuItems.length; i++) {
+            var menuItem = menuItems[i];
+
+            menuItem.onclick = function () {
+                var isParenMenu = this.nextElementSibling && this.nextElementSibling.classList.contains('subnav');
+                if (isParenMenu) {
+                    event.preventDefault();
+                }
+                else {
+                    header.style.height = null;
+                }
+            }
+        }
+    </script>
+</body>
+
+</html>
