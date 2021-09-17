@@ -172,7 +172,7 @@ html{
     position: relative;/*đánh giấu vị trí slide là gốc tọa độ*/
     margin-top: 46.4px;/*tách slide vs header*/
     padding-top: 50%;/*tạo phạm vi padding để đổ background*/
-    background: url('/asset/img/slide/slide3.jpg') top center / cover no-repeat;
+    background: url('https://c4.wallpaperflare.com/wallpaper/926/616/60/sunset-new-york-shadow-hd-wallpaper-preview.jpg') top center / cover no-repeat;
 }
 #slide .text-content{
     position: absolute;/*kế thừa vị trí từ slide*/
