@@ -1,6 +1,6 @@
 
 
-@media (max-width:1023px){
+@media (max-width:63.9375em){
     .btn{
         padding: 15px 16px;
     }
@@ -30,7 +30,7 @@
     }
 }
 
-@media (max-width:739px) {
+@media (max-width: 46.1875em) {
     #header{
         overflow: hidden; /*khi cac phan tu con vuot ra khoi phan tu cha thi bi an di*/
     }
